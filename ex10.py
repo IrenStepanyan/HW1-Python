@@ -11,6 +11,7 @@ while True:
 	try:
 		num = int(input("Enter a number: "))
 		Fibonacci(num)
-		break
 	except:
 		print("Invalid input. Try again.")
+	else:
+		break

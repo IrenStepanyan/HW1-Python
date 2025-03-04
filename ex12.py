@@ -1,8 +1,9 @@
 while True:
 	try:
-		num = input("Enter a number: ")
+		num = int(input("Enter a number: "))
 		dsum = 0
-		for d in num:
+		num = abs(num)
+		for d in str(num):
 			dsum +=int(d)
 		print(f"The sum is {dsum}.")
 		break
